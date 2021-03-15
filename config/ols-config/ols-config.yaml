@@ -27,7 +27,7 @@ ontologies:
       - http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
     definition_property:
       - http://purl.obolibrary.org/obo/IAO_0000115
-    preferred_root:
+    preferred_root_term:
       - http://purl.obolibrary.org/obo/CL_0011005
       - http://purl.obolibrary.org/obo/CL_0000679
       # Add CL for Meis2
@@ -55,7 +55,7 @@ ontologies:
       - http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
     definition_property:
       - http://purl.obolibrary.org/obo/IAO_0000115
-    preferred_root:
+    preferred_root_term:
       - http://purl.obolibrary.org/obo/CL_0011005
       - http://purl.obolibrary.org/obo/CL_0000679
       # Add CL for Meis2
