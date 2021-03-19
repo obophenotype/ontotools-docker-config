@@ -16,10 +16,10 @@ ontologies:
     ontology_purl: https://raw.githubusercontent.com/obophenotype/ontotools-docker-config/master/scratch_resource/pCL_4.1.0.owl
     allow_download: false
     
-  - id: bds
+  - id: bds1
     preferredPrefix: BDS
     title: BDS Ontology
-    description: Description for BDS
+    description: BDS Ontology - marker based
     uri: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/master/bdscratch-full.owl
     base_uri:
       - http://brain_data_standards/scratch_
@@ -42,6 +42,34 @@ ontologies:
     reasoner: EL
   #  oboSlims: false
     ontology_purl: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/master/bdscratch-full.owl
+    allow_download: false
+    
+  - id: bds2
+    preferredPrefix: BDS
+    title: BDS Ontology
+    description: BDS Ontology - taxonomy based
+    uri: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/ec_individuals/bdscratch-full.owl
+    base_uri:
+      - http://brain_data_standards/scratch_
+    synonym_property:
+      - http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+    definition_property:
+      - http://purl.obolibrary.org/obo/IAO_0000115
+    preferred_root_term:
+      - http://purl.obolibrary.org/obo/CL_0011005
+      - http://purl.obolibrary.org/obo/CL_0000679
+      # Add CL for Meis2
+      - http://purl.obolibrary.org/obo/CL_0002453
+      - http://purl.obolibrary.org/obo/CL_0002605
+      - http://purl.obolibrary.org/obo/CL_0000128
+      - http://purl.obolibrary.org/obo/CL_1001602
+      # Add CL for VLMC here
+      - http://purl.obolibrary.org/obo/CL_0000192 
+      - http://purl.obolibrary.org/obo/CL_2000043
+      - http://purl.obolibrary.org/obo/CL_0000129
+    reasoner: EL
+  #  oboSlims: false
+    ontology_purl: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/ec_individuals/bdscratch-full.owl
     allow_download: false
 
   - id: bds_subset
