@@ -36,7 +36,7 @@ ontologies:
       - http://purl.obolibrary.org/obo/CL_0000128
       - http://purl.obolibrary.org/obo/CL_1001602
       # Add CL for VLMC here
-      - http://purl.obolibrary.org/obo/CL_0000192 
+      - http://purl.obolibrary.org/obo/CL_0002590
       - http://purl.obolibrary.org/obo/CL_2000043
       - http://purl.obolibrary.org/obo/CL_0000129
     reasoner: EL
@@ -64,7 +64,7 @@ ontologies:
       - http://purl.obolibrary.org/obo/CL_0000128
       - http://purl.obolibrary.org/obo/CL_1001602
       # Add CL for VLMC here
-      - http://purl.obolibrary.org/obo/CL_0000192 
+      - http://purl.obolibrary.org/obo/CL_0002590
       - http://purl.obolibrary.org/obo/CL_2000043
       - http://purl.obolibrary.org/obo/CL_0000129
     reasoner: EL
@@ -92,7 +92,7 @@ ontologies:
       - http://purl.obolibrary.org/obo/CL_0000128
       - http://purl.obolibrary.org/obo/CL_1001602
       # Add CL for VLMC here
-      - http://purl.obolibrary.org/obo/CL_0000192 
+      - http://purl.obolibrary.org/obo/CL_0002590
       - http://purl.obolibrary.org/obo/CL_2000043
       - http://purl.obolibrary.org/obo/CL_0000129
     reasoner: EL
