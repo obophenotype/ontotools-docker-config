@@ -19,7 +19,7 @@ ontologies:
   - id: bds1
     preferredPrefix: BDS
     title: BDS Ontology
-    description: BDS Ontology - marker based
+    description: "BDS Ontology - marker based"
     uri: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/master/bdscratch-full.owl
     base_uri:
       - http://brain_data_standards/scratch_
@@ -47,7 +47,7 @@ ontologies:
   - id: bds2
     preferredPrefix: BDS
     title: BDS Ontology
-    description: BDS Ontology - taxonomy based
+    description: "BDS Ontology - taxonomy based"
     uri: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/ec_individuals/bdscratch-full.owl
     base_uri:
       - http://brain_data_standards/scratch_
