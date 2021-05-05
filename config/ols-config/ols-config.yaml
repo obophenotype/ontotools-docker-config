@@ -20,7 +20,7 @@ ontologies:
     preferredPrefix: BDS
     title: BDS Ontology
     description: "BDS Ontology - marker based"
-    uri: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/master/bdscratch-full.owl
+    uri: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/ec_denormalised_markers/bdscratch-full.owl
     base_uri:
       - http://brain_data_standards/scratch_
     synonym_property:
