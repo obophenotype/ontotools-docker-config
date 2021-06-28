@@ -97,7 +97,34 @@ ontologies:
       - http://purl.obolibrary.org/obo/CL_0000129
     reasoner: EL
     ontology_purl: https://raw.githubusercontent.com/obophenotype/cell-ontology/master/src/ontology/subsets/BDS_subset.owl
-    allow_download: false
+    
+  - id: bds_cell
+    preferredPrefix: BDS_C
+    title: BDS Cell Ontology
+    description: "BDS Ontology - autocomplete demo"
+    uri: https://raw.githubusercontent.com/obophenotype/bds-pipeline-config/dev/config/demo/bdscratch-cell.owl
+    base_uri:
+      - http://brain_data_standards/scratch_
+    synonym_property:
+      - http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
+    definition_property:
+      - http://purl.obolibrary.org/obo/IAO_0000115
+    preferred_root_term:
+      - http://purl.obolibrary.org/obo/CL_0011005
+      - http://purl.obolibrary.org/obo/CL_0000679
+      # Add CL for Meis2
+      - http://purl.obolibrary.org/obo/CL_0002453
+      - http://purl.obolibrary.org/obo/CL_0002605
+      - http://purl.obolibrary.org/obo/CL_0000128
+      - http://purl.obolibrary.org/obo/CL_1001602
+      # Add CL for VLMC here
+      - http://purl.obolibrary.org/obo/CL_0002590
+      - http://purl.obolibrary.org/obo/CL_2000043
+      - http://purl.obolibrary.org/obo/CL_0000129
+    reasoner: EL
+  #  oboSlims: false
+    ontology_purl: https://raw.githubusercontent.com/obophenotype/bds-pipeline-config/dev/config/demo/bdscratch-cell.owl
+    allow_download: false    allow_download: false
 
 #  - id: npo
 #    preferredPrefix: npokb
