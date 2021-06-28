@@ -97,6 +97,7 @@ ontologies:
       - http://purl.obolibrary.org/obo/CL_0000129
     reasoner: EL
     ontology_purl: https://raw.githubusercontent.com/obophenotype/cell-ontology/master/src/ontology/subsets/BDS_subset.owl
+    allow_download: false
     
   - id: bds_cell
     preferredPrefix: BDS_C
@@ -124,7 +125,7 @@ ontologies:
     reasoner: EL
   #  oboSlims: false
     ontology_purl: https://raw.githubusercontent.com/obophenotype/bds-pipeline-config/dev/config/demo/bdscratch-cell.owl
-    allow_download: false    allow_download: false
+    allow_download: false
 
 #  - id: npo
 #    preferredPrefix: npokb
