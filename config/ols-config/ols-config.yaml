@@ -30,15 +30,16 @@ ontologies:
     preferred_root_term:
       - http://purl.obolibrary.org/obo/CL_0011005
       - http://purl.obolibrary.org/obo/CL_0000679
-      # Add CL for Meis2
+      - http://purl.obolibrary.org/obo/CL_4023065
       - http://purl.obolibrary.org/obo/CL_0002453
-      - http://purl.obolibrary.org/obo/CL_0002605
+      - http://purl.obolibrary.org/obo/CL_0000127
       - http://purl.obolibrary.org/obo/CL_0000128
-      - http://purl.obolibrary.org/obo/CL_1001602
-      # Add CL for VLMC here
+      - http://purl.obolibrary.org/obo/CL_0000115
+      - http://purl.obolibrary.org/obo/CL_4023051
       - http://purl.obolibrary.org/obo/CL_0002590
       - http://purl.obolibrary.org/obo/CL_2000043
       - http://purl.obolibrary.org/obo/CL_0000129
+      - http://purl.obolibrary.org/obo/CL_0000881 
     reasoner: EL
   #  oboSlims: false
     ontology_purl: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/master/bdscratch-full.owl
