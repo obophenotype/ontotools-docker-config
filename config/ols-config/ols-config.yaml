@@ -49,7 +49,7 @@ ontologies:
     preferredPrefix: BDS
     title: BDS Ontology
     description: "BDS Ontology - taxonomy based"
-    uri: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/cross_species/bdscratch-full.owl
+    uri: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/pcl_migration/bdso-full.owl
     base_uri:
       - http://brain_data_standards/scratch_
     synonym_property:
@@ -70,7 +70,7 @@ ontologies:
       - http://purl.obolibrary.org/obo/CL_0000129
     reasoner: EL
   #  oboSlims: false
-    ontology_purl: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/cross_species/bdscratch-full.owl
+    ontology_purl: https://raw.githubusercontent.com/obophenotype/brain_data_standards_ontologies/pcl_migration/bdso-full.owl
     allow_download: false
 
   - id: bds_subset
