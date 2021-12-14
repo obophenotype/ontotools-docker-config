@@ -129,7 +129,7 @@ ontologies:
 #    allow_download: false
 
   - id: npo
-    preferredPrefix: npokb
+    preferredPrefix: npo
     title: Neuron phenotype ontology
     description: Neuron phenotype ontology
     uri: https://raw.githubusercontent.com/SciCrunch/NIF-Ontology/neurons/ttl/bridge/neuron-bridge.ttl
