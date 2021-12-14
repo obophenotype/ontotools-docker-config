@@ -130,8 +130,8 @@ ontologies:
 
   - id: npo
     preferredPrefix: npokb
-    title: NanoParticle Ontology
-    description: NPO Description
+    title: Neuron phenotype ontology
+    description: Neuron phenotype ontology
     uri: https://raw.githubusercontent.com/SciCrunch/NIF-Ontology/neurons/ttl/bridge/neuron-bridge.ttl
     base_uri:
       - http://uri.interlex.org/npo/uris/neurons/
